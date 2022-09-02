@@ -1,0 +1,60 @@
+.bg_red{
+    background-color: red;
+}
+
+
+/* TEXT */
+.custom_h1{
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 1rem;
+}
+
+
+/* FLEX STYLE */
+.flex{
+    display: flex;
+}
+.flex_col{
+    flex-direction: column;
+}
+
+.item_center{
+    align-items: center;
+    justify-items: center;
+}
+
+.justify_center{
+    justify-content: center;
+}
+.justify_around{
+    justify-content: space-around;
+}
+
+
+/* MARGIN */
+.mt_4{
+    margin-top: 4px;
+}
+
+.mt_10{
+    margin-top: 10px;
+}
+
+.mr_5{
+    margin-right: 5px;
+}
+
+.mr_7{
+    margin-right: 7px;
+}
+
+.m_7{
+    margin-right: 7px;
+}
+
+
+.h_full{
+    height: 100%;
+}
+

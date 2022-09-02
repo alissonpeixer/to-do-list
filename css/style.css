@@ -1,0 +1,106 @@
+:root{
+    --color-1: #18161F;
+    --color-2: #262331;
+    --color-3: #787490;
+    --color-4: #D6D4E2;
+    --color-5: #F5F4F6;
+    --color-6: #FFFFFF;
+    --color-7: #02B553;
+    --color-8: #FF497D; 
+
+
+    --hover: #05ff75;
+}
+
+
+*{
+    padding: 0;
+    margin: auto 0;
+    box-sizing: border-box;
+}
+input{
+    background: transparent;
+    outline: none;
+    border: none;
+    font-family: 'Space Grotesk';
+}
+button{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    color: var(--color-6);
+    font-family: 'Space Grotesk';
+}
+
+html, body{
+    background-color: var(--color-5);
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+}
+
+
+
+.create_tesk{
+    width: 80%;
+    height: 30vh;
+    padding: 20px 20px;
+    border-radius: 19px;
+    border: solid 1px var(--color-1);
+}
+.paiting_task{
+    width: 80%;
+    padding: 20px 20px;
+    border-radius: 19px;
+    border: solid 1px var(--color-1);
+}
+
+
+.input_task{
+    transition: all 1s;
+    border: 1px solid var(--color-4);
+    border-radius: 16px;
+    background-color: var(--color-6);
+    padding: 16px;
+    width: 100%;
+    height: 33px;
+}
+.input_task:focus{
+    transition: all 1s;
+    border: 1px solid var(--color-7);
+}
+
+.btn_task{
+    transition: all 1s;
+    background-color: var(--color-7);
+    border-radius: 16px;
+    height: 33px;
+    width: 100px;
+    margin: 0 10px;
+
+    font-size: 10px;
+}
+
+.btn_task:hover{
+    transition: all 1s;
+    background-color: var(--hover);
+}
+
+
+
+.left{
+    display: flex;
+    width: 100%;
+}
+.task{
+    margin: 10px 0;
+    background-color: var(--color-6);
+    border-radius: 24px;
+    padding: 16px;
+    height: 55px;
+
+    display: flex;
+
+    font-size: 13px;
+}
