@@ -155,13 +155,13 @@ html,body{
 
 /* btn task */
 .btn_remove{
-    background: url(/assents/remove.svg) no-repeat;
+    background: url(https://alissonpeixer.github.io/task-list/assents/remove.svg) no-repeat;
     width: 30px;
     height: 25px;
 }
 .btn_unChecke{
     transition: all 1s;
-    background: url(/assents/unchecked.svg)  no-repeat center center;
+    background: url(https://alissonpeixer.github.io/task-list/assents/unchecked.svg)  no-repeat center center;
     background-size: auto;
     width: 30px;
     height: 25px;
@@ -170,7 +170,7 @@ html,body{
 
 .btn_checke{
     transition: all 1s;
-    background: url(/assents/check.svg) no-repeat center center;
+    background: url(https://alissonpeixer.github.io/task-list/assents/check.svg) no-repeat center center;
     background-size: auto;
     width: 30px;
     height: 25px;
