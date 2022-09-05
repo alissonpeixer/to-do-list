@@ -1,0 +1,175 @@
+:root{
+    --color-1: #18161F;
+    --color-2: #262331;
+    --color-3: #787490;
+    --color-4: #D6D4E2;
+    --color-5: #F5F4F6;
+    --color-6: #FFFFFF;
+    --color-7: #02B553;
+    --color-8: #FF497D; 
+
+
+    --hover: #05ff75;
+}
+
+html,body{
+    background-color: var(--color-5);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    height: 100vh;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.input_container{
+    height: 200px;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 20px;
+    
+    /* box-shadow: var(--color-3) 1px 1px 10px; */
+
+}
+
+.input_header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.input_header svg{
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.input_container .input_zone {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.input_zone input{
+    transition: all 1s;
+    flex: 1;
+    height: 70%;
+    padding: 16px;
+    margin: 0 4px;
+    background-color: var(--color-6);
+    border: 1px solid var(--color-4);
+    border-radius: 19px;
+
+    font-size: 0.6rem;
+}
+.input_zone input:focus{
+    transition: all 1s;
+    border: 1px solid var(--color-7);
+}
+
+.input_zone button{
+    transition: all 1s;
+    height: 70%;
+    
+    padding: 16px 40px;
+    margin: 0 20px;
+    
+    background-color: var(--color-7);
+    border: 1px solid var(--color-7);
+    border-radius: 19px;
+
+    color: var(--color-6);
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+.input_zone button:hover{
+    transition: all 1s;
+    border: 1px solid var( --hover);
+    background-color: var(--hover);
+}
+
+
+/* task */
+.tasks_container{
+    width: 100%;
+    max-width: 1000px;
+}
+.task_header{
+    display: flex;
+    align-items: flex-end;
+    height: 100px;
+}
+.task_header svg{
+    width: 40px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+
+.task_container{
+    transition: all 1s;
+
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+    padding: 20px;
+    margin: 30px 0;
+
+    border: 1px solid #18161f19;
+    border-radius: 20px;
+
+    background-color: var(--color-6);
+    /* box-shadow: var(--color-3) 1px 1px 10px; */
+
+}
+.taskIsChecked{
+    border: 1px solid var(--color-7);
+}
+
+.task_text_style{
+    transition: all 1s;
+    flex: 1;
+    height: 100%;
+    margin: 0 10px;
+    font-size: 0.8rem;
+    word-break: break-all;
+}
+
+.task_text_checked{
+    transition: all 1s;
+    text-decoration: line-through;
+    color: var(--color-7);
+}
+
+/* btn task */
+.btn_remove{
+    background: url(/assents/remove.svg) no-repeat;
+    width: 30px;
+    height: 25px;
+}
+.btn_unChecke{
+    transition: all 1s;
+    background: url(/assents/unchecked.svg)  no-repeat center center;
+    background-size: auto;
+    width: 30px;
+    height: 25px;
+}
+
+
+.btn_checke{
+    transition: all 1s;
+    background: url(/assents/check.svg) no-repeat center center;
+    background-size: auto;
+    width: 30px;
+    height: 25px;
+}
