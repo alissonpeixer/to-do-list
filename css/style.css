@@ -37,11 +37,10 @@ html,body{
     
     padding: 0 20px;
 
-    background-color: var(--color-6);
-    border: solid 1px var(--color-1);
+ 
     border-radius: 20px;
     
-    box-shadow: var(--color-3) 1px 1px 100px;
+    box-shadow: var(--color-3) 1px 1px 10px;
 
 }
 
