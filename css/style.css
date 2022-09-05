@@ -153,25 +153,3 @@ html,body{
     color: var(--color-7);
 }
 
-/* btn task */
-.btn_remove{
-    background: url(https://alissonpeixer.github.io/task-list/assents/remove.svg) no-repeat;
-    width: 30px;
-    height: 25px;
-}
-.btn_unChecke{
-    transition: all 1s;
-    background: url(https://alissonpeixer.github.io/task-list/assents/unchecked.svg)  no-repeat center center;
-    background-size: auto;
-    width: 30px;
-    height: 25px;
-}
-
-
-.btn_checke{
-    transition: all 1s;
-    background: url(https://alissonpeixer.github.io/task-list/assents/check.svg) no-repeat center center;
-    background-size: auto;
-    width: 30px;
-    height: 25px;
-}
