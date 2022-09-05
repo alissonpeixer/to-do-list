@@ -1,10 +1,10 @@
 # Task List
 
 Stack in use, HTML5, CSS3 and pure JS.
+
+
 ---
-###### Project prodution status
-###### [x] In progress
----
+[Project in figma](https://www.figma.com/file/wauNqFLNyPlyMei9q548Oj/N%C3%ADvel-3-%E2%80%A2-Desafio-3-%E2%80%A2-Lista-de-tarefas?node-id=1%3A1308) | 
 [Project live demo](https://alissonpeixer.github.io/task-list)
 ---
 
@@ -12,6 +12,6 @@ Stack in use, HTML5, CSS3 and pure JS.
 ##### This projet is created for to [Cordar.Me](https://codar.me/) course. 
 ---
 ###### screenshot this project
-<img src="https://media.discordapp.net/attachments/902734948270759937/1015263118269616139/Captura_de_tela_2022-09-02_111243.png" width='900px'>
+![image](https://user-images.githubusercontent.com/48291580/188503353-2bf78098-b283-4595-805d-4ef35a15ae43.png)
 
 
