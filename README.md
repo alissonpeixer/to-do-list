@@ -1,6 +1,6 @@
 # Task List
 
-Stack in use, HTML5, CSS3 and pure JS.
+Stacks HTML5, CSS3 and pure JS.
 
 
 ---
