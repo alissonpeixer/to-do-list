@@ -117,12 +117,15 @@ html,body{
 
 
 .task_container{
+    transition: all 1s;
+
     min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between; 
 
     padding: 20px;
+    margin: 30px 0;
 
     border: 1px solid var(--color-1);
     border-radius: 20px;
@@ -131,14 +134,23 @@ html,body{
     box-shadow: var(--color-3) 1px 1px 10px;
 
 }
-
+.taskIsChecked{
+    border: 1px solid var(--color-7);
+}
 
 .task_text_style{
+    transition: all 1s;
     flex: 1;
     height: 100%;
     margin: 0 10px;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     word-break: break-all;
+}
+
+.task_text_checked{
+    transition: all 1s;
+    text-decoration: line-through;
+    color: var(--color-7);
 }
 
 /* btn task */
@@ -148,8 +160,18 @@ html,body{
     height: 25px;
 }
 .btn_unChecke{
-    background: url(/assents/unchecked.svg) no-repeat;
+    transition: all 1s;
+    background: url(/assents/unchecked.svg)  no-repeat center center;
+    background-size: auto;
     width: 30px;
     height: 25px;
 }
 
+
+.btn_checke{
+    transition: all 1s;
+    background: url(/assents/check.svg) no-repeat center center;
+    background-size: auto;
+    width: 30px;
+    height: 25px;
+}
