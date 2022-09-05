@@ -1,0 +1,277 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( 83.2deg, rgba(150, 93, 233, 1) 10.8%, rgba(99, 88, 238, 1) 94.3%);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.bemvindo {
+    text-align: center;
+    font-size: 2em;
+}
+.input {
+    display: flex;
+    height: 5em;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.btn {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%)
+}
+
+.btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    padding-top: 1px;
+    justify-content: center;
+    border-top: 1px solid rgb(148, 148, 148);
+}
+
+.apagar {
+    height: 2px;
+    text-align: center;
+
+    font-size: 0.4em;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.apagar:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter-2:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background: #8E0E00; 
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  
+    background: linear-gradient(to right, #1F1C18, #8E0E00);  */
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+
+header{
+    padding:6px;
+    background-color: #0e0e10;
+
+
+}
+
+
+#input-tarefas {
+
+ 
+    margin: auto;
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+   
+}
+
+.input {
+    margin-top: 8px;
+    padding: auto;
+    height: 4em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+#containerr{
+    display: flex;
+    max-width: auto;
+
+}
+.title {
+    display: block;
+    padding: 10px 0 ;
+    margin-left: auto;
+    text-align: center;
+    font-size:  1em;
+    font-family: 'Inter', sans-serif;
+    color: aliceblue;
+}
+
+
+
+.logo{
+    display: block;
+    padding: 10px 0 ;
+    background: url(https://media.discordapp.net/attachments/913619847240364033/915460442665660426/Untitled-2-Recovrered.png)  left  center no-repeat  ;
+    background-size: 60px;
+    width: 140px;
+    color: white;
+    font-family: 'Inter-2', sans-serif;
+    text-transform: uppercase;
+    text-align: end;
+}
+
+
+
+
+
+
+.btn {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%)
+}
+
+.btn {
+   
+    width: 96%;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    padding-top: 1px;
+    justify-content: center;
+    border-top: 1px solid rgb(148, 148, 148);
+}
+
+/* .litarefas:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #898989 0%, #707070 51%, #747474 100%);
+} */
+
+.apagar {
+    height: 2px;
+    text-align: center;
+
+    font-size: 0.4em;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.apagar:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.edit {
+    height: 2px;
+    text-align: center;
+
+    font-size: 0.4em;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.edit:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
