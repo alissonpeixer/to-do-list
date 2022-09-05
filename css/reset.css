@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background: none;
+    outline: none;
+    border: none;
+    font-family: 'Space Grotesk', sans-serif;
+
+    cursor: pointer;
+}
+
+
+input{
+    background: none;
+    outline: none;
+    border: none;
+    font-family: 'Space Grotesk', sans-serif;
+}

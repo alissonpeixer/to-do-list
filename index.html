@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>List Task</title>
+</head>
+<body>
+    
+
+    <div id="container">
+
+
+        <div class="input_container">
+   
+            <header class="input_header">
+                <svg width="28" height="20" viewBox="0 0 28 20" fill="none" >
+                    <path d="M1 2.5C1 1.672 1.672 1 2.5 1H10.5C11.328 1 12 1.672 12 2.5V7.5C12 8.328 11.328 9 10.5 9H2.5C2.10218 9 1.72064 8.84196 1.43934 8.56066C1.15804 8.27936 1 7.89782 1 7.5V2.5ZM17 4.5C17 3.672 17.672 3 18.5 3H25.5C26.328 3 27 3.672 27 4.5V15.5C27 16.328 26.328 17 25.5 17H18.5C18.1022 17 17.7206 16.842 17.4393 16.5607C17.158 16.2794 17 15.8978 17 15.5V4.5ZM3 14.5C3 13.672 3.672 13 4.5 13H11.5C12.328 13 13 13.672 13 14.5V17.5C13 18.328 12.328 19 11.5 19H4.5C4.10218 19 3.72064 18.842 3.43934 18.5607C3.15804 18.2794 3 17.8978 3 17.5V14.5Z" stroke="#18161F" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h4>Adicionar uma tarefa</h4>
+            </header>
+            <div class="input_zone">
+                <input type="text">
+                <button type="submit">Adicionar</button>
+            </div>
+    
+        </div>
+
+        <div id="tasks"  class="tasks_container"> 
+           <header class="task_header">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 22.5H22.5M22.5 22.5H27M22.5 22.5V18M22.5 22.5V27M8 14H11C11.7956 14 12.5587 13.6839 13.1213 13.1213C13.6839 12.5587 14 11.7956 14 11V8C14 7.20435 13.6839 6.44129 13.1213 5.87868C12.5587 5.31607 11.7956 5 11 5H8C7.20435 5 6.44129 5.31607 5.87868 5.87868C5.31607 6.44129 5 7.20435 5 8V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14V14ZM8 27H11C11.7956 27 12.5587 26.6839 13.1213 26.1213C13.6839 25.5587 14 24.7957 14 24V21C14 20.2044 13.6839 19.4413 13.1213 18.8787C12.5587 18.3161 11.7956 18 11 18H8C7.20435 18 6.44129 18.3161 5.87868 18.8787C5.31607 19.4413 5 20.2044 5 21V24C5 24.7957 5.31607 25.5587 5.87868 26.1213C6.44129 26.6839 7.20435 27 8 27ZM21 14H24C24.7957 14 25.5587 13.6839 26.1213 13.1213C26.6839 12.5587 27 11.7956 27 11V8C27 7.20435 26.6839 6.44129 26.1213 5.87868C25.5587 5.31607 24.7957 5 24 5H21C20.2044 5 19.4413 5.31607 18.8787 5.87868C18.3161 6.44129 18 7.20435 18 8V11C18 11.7956 18.3161 12.5587 18.8787 13.1213C19.4413 13.6839 20.2044 14 21 14V14Z" stroke="#18161F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h4>Quadro de tarefas</h4>
+           </header>
+
+           <div id="task" class="task_container">
+                <button id="btn_checke" class="btn_unChecke"></button>
+                <p class="task_text_style">TAREFA AQUi</p>  
+                <button class="btn_remove"></button>
+           </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
