@@ -12,6 +12,6 @@ Stack in use, HTML5, CSS3 and pure JS.
 ##### This projet is created for to [Cordar.Me](https://codar.me/) course. 
 ---
 ###### screenshot this project
-<img src="https://media.discordapp.net/attachments/902734948270759937/1015263118269616139/Captura_de_tela_2022-09-02_111243.png" width='900px'>
+![image](https://user-images.githubusercontent.com/48291580/188490843-e223a741-3fb8-47a6-b030-c23c70768a27.png)
 
 
