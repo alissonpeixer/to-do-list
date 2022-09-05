@@ -52,7 +52,6 @@ function onloadChecked(data){
             const btnChecked = task.querySelector('#checke')
             const textTask = task.querySelector('p')
 
-            console.log(btnChecked)
             task.setAttribute('class', `${classContainer} task_container taskIsChecked`)
            
             btnChecked.setAttribute('id','unChecke')
