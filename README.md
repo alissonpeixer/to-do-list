@@ -1,10 +1,10 @@
 # Task List
 
 Stack in use, HTML5, CSS3 and pure JS.
+
+
 ---
-###### Project prodution status
-###### [x] In progress
----
+[Project in Figma](https://www.figma.com/file/wauNqFLNyPlyMei9q548Oj/N%C3%ADvel-3-%E2%80%A2-Desafio-3-%E2%80%A2-Lista-de-tarefas?node-id=1%3A1308)
 [Project live demo](https://alissonpeixer.github.io/task-list)
 ---
 
