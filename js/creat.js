@@ -1,1 +1,29 @@
-function _0x191f(){const _0x98a7f1=['45975MhindD','142PQxxbO','126192EYqxkB','5944104qKhozl','div','btn_remove','task_text','6togRPs','\x20task_container','innerText','1139ubYfaa','776790XyOXld','appendChild','setAttribute','task_text_style','1225688oKcZkk','848892HnBNjJ','button','createElement','remove','checked'];_0x191f=function(){return _0x98a7f1;};return _0x191f();}function _0x5496(_0x3e48cd,_0x5ecb05){const _0x191f22=_0x191f();return _0x5496=function(_0x5496e3,_0x217649){_0x5496e3=_0x5496e3-0xf3;let _0x43f983=_0x191f22[_0x5496e3];return _0x43f983;},_0x5496(_0x3e48cd,_0x5ecb05);}(function(_0x3540a4,_0x306561){const _0x3ecd47=_0x5496,_0x75c39d=_0x3540a4();while(!![]){try{const _0x3ee870=-parseInt(_0x3ecd47(0x102))/0x1*(-parseInt(_0x3ecd47(0xf9))/0x2)+-parseInt(_0x3ecd47(0xf3))/0x3+-parseInt(_0x3ecd47(0xfa))/0x4+-parseInt(_0x3ecd47(0xf8))/0x5*(parseInt(_0x3ecd47(0xff))/0x6)+-parseInt(_0x3ecd47(0x103))/0x7+-parseInt(_0x3ecd47(0x107))/0x8+parseInt(_0x3ecd47(0xfb))/0x9;if(_0x3ee870===_0x306561)break;else _0x75c39d['push'](_0x75c39d['shift']());}catch(_0x1ad3c9){_0x75c39d['push'](_0x75c39d['shift']());}}}(_0x191f,0x2575d));function creatDivTask(_0x1470a3){const _0x1fe0f7=_0x5496,_0x2ba836=document[_0x1fe0f7(0xf5)](_0x1fe0f7(0xfc)),_0x14fd8f=document[_0x1fe0f7(0xf5)](_0x1fe0f7(0xf4)),_0x19b381=document[_0x1fe0f7(0xf5)](_0x1fe0f7(0xf4)),_0x5ec25d=document[_0x1fe0f7(0xf5)]('p');_0x2ba836[_0x1fe0f7(0x105)]('id','task'),_0x2ba836[_0x1fe0f7(0x105)]('class',_0x1470a3['id']+_0x1fe0f7(0x100)),_0x2ba836[_0x1fe0f7(0x105)](_0x1fe0f7(0xf7),_0x1470a3[_0x1fe0f7(0xf7)]),_0x14fd8f['setAttribute']('id','checke'),_0x14fd8f[_0x1fe0f7(0x105)]('class','btn_unChecke'),_0x19b381[_0x1fe0f7(0x105)]('id',_0x1fe0f7(0xf6)),_0x19b381[_0x1fe0f7(0x105)]('class',_0x1fe0f7(0xfd)),_0x5ec25d['setAttribute']('id',_0x1fe0f7(0xfe)),_0x5ec25d['setAttribute']('class',_0x1fe0f7(0x106)),_0x5ec25d[_0x1fe0f7(0x101)]=_0x1470a3['task'],_0x2ba836[_0x1fe0f7(0x104)](_0x14fd8f),_0x2ba836['appendChild'](_0x5ec25d),_0x2ba836[_0x1fe0f7(0x104)](_0x19b381),listTask[_0x1fe0f7(0x104)](_0x2ba836);}
+function creatDivTask(data){
+    const container = document.createElement('div') 
+    const btnCheck = document.createElement('button')
+    const btnRemove =  document.createElement('button')
+    const taskText = document.createElement('p')
+
+    container.setAttribute('id', 'task')
+    container.setAttribute('class', `${data.id} task_container`)
+
+    container.setAttribute('checked', data.checked)
+
+    btnCheck.setAttribute('id', 'checke')
+    btnCheck.setAttribute('class', 'btn_unChecke')
+
+    btnRemove.setAttribute('id', 'remove')
+    btnRemove.setAttribute('class', 'btn_remove')
+
+    taskText.setAttribute('id', 'task_text')
+    taskText.setAttribute('class', 'task_text_style')
+
+    taskText.innerText = data.task
+
+    container.appendChild(btnCheck)
+    container.appendChild(taskText)
+    container.appendChild(btnRemove)
+
+    listTask.appendChild(container)
+}
+
