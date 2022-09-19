@@ -1,26 +1,9 @@
-# Task List
+# To Do List
 
 
-<table>
-    Stacks 
-   <tr>
-    <td>
-      <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"> 
-        <img src="https://alissonpeixer.github.io/iconStacks/assents/html-5-480px.svg" alt="html5" width="40" height="40"/> 
-      </a> 
-     </td>
-      <td>
-        <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
-          <img src="https://alissonpeixer.github.io/iconStacks/assents/css-3-480px.svg" alt="css3" width="40" height="40"/> 
-        </a> 
-      </td>
-      <td>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-          <img src="https://alissonpeixer.github.io/iconStacks/assents/javascript-480px.svg" alt="javascript" width="40" height="40"/>   
-        </a> 
-      </td>
-      </tr>
-</table>
+
+Stacks used<br>
+![My Skills](https://skillicons.dev/icons?i=js,html,css)
 
 ---
 
