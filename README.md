@@ -1,6 +1,6 @@
-# To Do List
+![MasterHead](https://media.discordapp.net/attachments/902734948270759937/1021445275056869476/Banner.png)
 
-
+---
 
 Stacks used<br>
 ![My Skills](https://skillicons.dev/icons?i=js,html,css)
@@ -19,6 +19,14 @@ The purpose of this was to recreate a To do list project using the concepts of J
 ---
 ###### screenshot this project
 ![image](https://user-images.githubusercontent.com/48291580/188503353-2bf78098-b283-4595-805d-4ef35a15ae43.png)
+
+
+
+
+
+https://user-images.githubusercontent.com/48291580/191057811-fe96487c-ed34-4e6b-a422-23dc6c4df30b.mp4
+
+
 
 ---
 
