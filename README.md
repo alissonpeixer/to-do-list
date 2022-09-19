@@ -6,7 +6,9 @@ Stacks used<br>
 ![My Skills](https://skillicons.dev/icons?i=js,html,css)
 
 ---
-
+### This project
+The purpose of this was to recreate a To do list project using the concepts of JavaScript, HTML and CSS and also storing the tasks in the browser's localstorage.
+<br><br>
 [Project in figma](https://www.figma.com/file/wauNqFLNyPlyMei9q548Oj/N%C3%ADvel-3-%E2%80%A2-Desafio-3-%E2%80%A2-Lista-de-tarefas?node-id=1%3A1308) | 
 [Project live demo](https://alissonpeixer.github.io/task-list)
 
